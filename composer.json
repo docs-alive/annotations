@@ -1,0 +1,25 @@
+{
+    "name": "docs-alive/annotations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémy Romey",
+            "email": "jeremy@free-agent.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "DocsAlive\\Annotations\\": "src/"
+        }
+    }
+}
